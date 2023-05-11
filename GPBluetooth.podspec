@@ -18,6 +18,9 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/hien352911/GPBluetooth.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "GPBluetooth/**/*.{swift,xib}"
+
+  spec.ios.resource_bundle = { 'GPBluetooth' => 'GPBluetooth/Resources/*.xcassets' }
+
   spec.swift_version = "5.0"
 
   spec.dependency 'Alamofire', '5.7.1'

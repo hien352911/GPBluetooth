@@ -61,14 +61,22 @@
 		8621B0442A0BD164005AEDC6 /* GPBluetooth */ = {
 			isa = PBXGroup;
 			children = (
+				86A8F9542A0C80C100D0D3A6 /* Resources */,
 				8621B0452A0BD164005AEDC6 /* GPBluetooth.h */,
 				861DC1802A0C792A00C784BA /* Student.swift */,
 				861DC1A42A0C7CDC00C784BA /* ProductViewController.swift */,
 				861DC1A52A0C7CDC00C784BA /* ProductViewController.xib */,
 				8621B0462A0BD164005AEDC6 /* Info.plist */,
-				861DC1A22A0C7C2800C784BA /* Assets.xcassets */,
 			);
 			path = GPBluetooth;
+			sourceTree = "<group>";
+		};
+		86A8F9542A0C80C100D0D3A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				861DC1A22A0C7C2800C784BA /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		C32254726DB0C3812C2E4D77 /* Frameworks */ = {
@@ -85,7 +93,6 @@
 				C1BE4BA4D15BDED731D818C5 /* Pods-GPBluetooth.debug.xcconfig */,
 				139F3E4AC2D4A64D7869E193 /* Pods-GPBluetooth.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
