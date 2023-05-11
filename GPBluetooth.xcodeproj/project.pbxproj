@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		861DC1812A0C792A00C784BA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DC1802A0C792A00C784BA /* Student.swift */; };
 		8621B0472A0BD164005AEDC6 /* GPBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = 8621B0452A0BD164005AEDC6 /* GPBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		861DC1802A0C792A00C784BA /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		8621B0422A0BD164005AEDC6 /* GPBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8621B0452A0BD164005AEDC6 /* GPBluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPBluetooth.h; sourceTree = "<group>"; };
 		8621B0462A0BD164005AEDC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				8621B0452A0BD164005AEDC6 /* GPBluetooth.h */,
+				861DC1802A0C792A00C784BA /* Student.swift */,
 				8621B0462A0BD164005AEDC6 /* Info.plist */,
 			);
 			path = GPBluetooth;
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861DC1812A0C792A00C784BA /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
