@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A35EC83E133B72ED84D0CF0 /* Pods_GPBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3063D9D421284ABD6D26824D /* Pods_GPBluetooth.framework */; };
 		861DC1812A0C792A00C784BA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DC1802A0C792A00C784BA /* Student.swift */; };
 		861DC1A32A0C7C2800C784BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861DC1A22A0C7C2800C784BA /* Assets.xcassets */; };
+		861DC1A62A0C7CDC00C784BA /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DC1A42A0C7CDC00C784BA /* ProductViewController.swift */; };
+		861DC1A72A0C7CDC00C784BA /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 861DC1A52A0C7CDC00C784BA /* ProductViewController.xib */; };
 		8621B0472A0BD164005AEDC6 /* GPBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = 8621B0452A0BD164005AEDC6 /* GPBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		139F3E4AC2D4A64D7869E193 /* Pods-GPBluetooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPBluetooth.release.xcconfig"; path = "Target Support Files/Pods-GPBluetooth/Pods-GPBluetooth.release.xcconfig"; sourceTree = "<group>"; };
+		3063D9D421284ABD6D26824D /* Pods_GPBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		861DC1802A0C792A00C784BA /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		861DC1A22A0C7C2800C784BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		861DC1A42A0C7CDC00C784BA /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		861DC1A52A0C7CDC00C784BA /* ProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
 		8621B0422A0BD164005AEDC6 /* GPBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8621B0452A0BD164005AEDC6 /* GPBluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPBluetooth.h; sourceTree = "<group>"; };
 		8621B0462A0BD164005AEDC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BE4BA4D15BDED731D818C5 /* Pods-GPBluetooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPBluetooth.debug.xcconfig"; path = "Target Support Files/Pods-GPBluetooth/Pods-GPBluetooth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A35EC83E133B72ED84D0CF0 /* Pods_GPBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +45,8 @@
 			children = (
 				8621B0442A0BD164005AEDC6 /* GPBluetooth */,
 				8621B0432A0BD164005AEDC6 /* Products */,
+				DA7B1D758A5D50DCD6A50555 /* Pods */,
+				C32254726DB0C3812C2E4D77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,10 +63,30 @@
 			children = (
 				8621B0452A0BD164005AEDC6 /* GPBluetooth.h */,
 				861DC1802A0C792A00C784BA /* Student.swift */,
+				861DC1A42A0C7CDC00C784BA /* ProductViewController.swift */,
+				861DC1A52A0C7CDC00C784BA /* ProductViewController.xib */,
 				8621B0462A0BD164005AEDC6 /* Info.plist */,
 				861DC1A22A0C7C2800C784BA /* Assets.xcassets */,
 			);
 			path = GPBluetooth;
+			sourceTree = "<group>";
+		};
+		C32254726DB0C3812C2E4D77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3063D9D421284ABD6D26824D /* Pods_GPBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA7B1D758A5D50DCD6A50555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1BE4BA4D15BDED731D818C5 /* Pods-GPBluetooth.debug.xcconfig */,
+				139F3E4AC2D4A64D7869E193 /* Pods-GPBluetooth.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -76,6 +107,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8621B04A2A0BD164005AEDC6 /* Build configuration list for PBXNativeTarget "GPBluetooth" */;
 			buildPhases = (
+				A12497998DFA2692711709E9 /* [CP] Check Pods Manifest.lock */,
 				8621B03D2A0BD164005AEDC6 /* Sources */,
 				8621B03E2A0BD164005AEDC6 /* Frameworks */,
 				8621B03F2A0BD164005AEDC6 /* Headers */,
@@ -101,6 +133,7 @@
 				TargetAttributes = {
 					8621B0412A0BD164005AEDC6 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1400;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,17 +160,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861DC1A72A0C7CDC00C784BA /* ProductViewController.xib in Resources */,
 				861DC1A32A0C7C2800C784BA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A12497998DFA2692711709E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPBluetooth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8621B03D2A0BD164005AEDC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861DC1A62A0C7CDC00C784BA /* ProductViewController.swift in Sources */,
 				861DC1812A0C792A00C784BA /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +320,9 @@
 		};
 		8621B04B2A0BD164005AEDC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BE4BA4D15BDED731D818C5 /* Pods-GPBluetooth.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -273,6 +335,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.swifty.GPBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -280,7 +343,9 @@
 		};
 		8621B04C2A0BD164005AEDC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139F3E4AC2D4A64D7869E193 /* Pods-GPBluetooth.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

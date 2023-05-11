@@ -1,0 +1,6 @@
+framework module Pods_GPBluetooth {
+  umbrella header "Pods-GPBluetooth-umbrella.h"
+
+  export *
+  module * { export * }
+}
